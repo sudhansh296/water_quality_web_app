@@ -6,8 +6,8 @@ A Machine Learning powered web app that predicts whether water is **safe to drin
 
 ## 🚀 Live Demo
 
-- **Frontend:** [Coming Soon](#)
-- **Backend API:** [Coming Soon](#)
+- **Frontend:** [water-quality-web-app-eight.vercel.app](https://water-quality-web-app-eight.vercel.app)
+- **Backend API:** [water-quality-backend-jaw5.onrender.com](https://water-quality-backend-jaw5.onrender.com)
 
 ---
 

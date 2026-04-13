@@ -36,7 +36,12 @@ class WaterData(BaseModel):
     Trihalomethanes: float
     Turbidity: float
 
-# 4. Prediction Endpoint
+# 4. Health Check Endpoint (UptimeRobot ke liye)
+@app.get("/")
+def health_check():
+    return {"status": "ok"}
+
+# 5. Prediction Endpoint
 @app.post("/predict")
 def predict_water_quality(data: WaterData):
     # 1. Real-World Rule (AI Model ko bypass karna)
